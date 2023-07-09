@@ -1,0 +1,73 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+  background-color: #24202b;
+  padding: 24px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2A8B8B;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+.char-length{
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.char-length span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+}
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+.generateBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+.error-message {
+  color: red;
+  padding-bottom: 5px;
+}
+.password-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: #FFF;
+}
