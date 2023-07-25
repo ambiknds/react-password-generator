@@ -1,7 +1,7 @@
 const Checkbox = ({title, state, onChange}) => {
     return (
         <div>
-            <input
+            <input className="check-box"
                 type="checkbox"
                 onChange={onChange}
                 checked={state}
